@@ -1,0 +1,21 @@
+﻿Build started 5/3/2015 9:48:04 AM.
+     1>Project "E:\visual studio\iGame\iGame\iGame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\MS Visual studio\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(37): warning C4091: 'typedef ' : ignored on left of 'Button' when no variable is declared
+     1>main.cpp(47): warning C4091: 'typedef ' : ignored on left of 'Enemy' when no variable is declared
+     1>main.cpp(51): warning C4091: 'typedef ' : ignored on left of 'Block' when no variable is declared
+     1>main.cpp(56): warning C4091: 'typedef ' : ignored on left of 'Wall' when no variable is declared
+     1>main.cpp(65): warning C4091: 'typedef ' : ignored on left of 'JumpingWall' when no variable is declared
+     1>main.cpp(74): warning C4091: 'typedef ' : ignored on left of 'MovingWall' when no variable is declared
+       Link:
+         F:\MS Visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\visual studio\iGame\Release\iGame.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\visual studio\iGame\Release\iGame.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\visual studio\iGame\Release\iGame.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Generating code
+         Finished generating code
+         iGame.vcxproj -> E:\visual studio\iGame\Release\iGame.exe
+     1>Done Building Project "E:\visual studio\iGame\iGame\iGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.99

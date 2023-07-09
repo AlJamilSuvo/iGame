@@ -1,0 +1,16 @@
+﻿Build started 4/30/2015 11:16:04 AM.
+     1>Project "E:\visual studio\iGame\iGame\iGame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\MS Visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\visual studio\igame\igame\main.cpp(11): warning C4091: 'typedef ' : ignored on left of 'Wall' when no variable is declared
+     1>e:\visual studio\igame\igame\main.cpp(19): warning C4091: 'typedef ' : ignored on left of 'JumpingWall' when no variable is declared
+     1>e:\visual studio\igame\igame\main.cpp(27): warning C4091: 'typedef ' : ignored on left of 'MovingWall' when no variable is declared
+       Link:
+         F:\MS Visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\visual studio\iGame\Debug\iGame.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\visual studio\iGame\Debug\iGame.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\visual studio\iGame\Debug\iGame.lib" /MACHINE:X86 Debug\main.obj
+         iGame.vcxproj -> E:\visual studio\iGame\Debug\iGame.exe
+     1>Done Building Project "E:\visual studio\iGame\iGame\iGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.67
